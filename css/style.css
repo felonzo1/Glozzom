@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active{
+    border-left: 3px solid #444 !important;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url('../image/image1.jpg');
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url('../image/image2.jpg');
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url('../image/image3.jpg');
+    background-size: cover;
+}
+
+#animate{
+    animation: moveInLeft 3s ease-in-out;
+}
+#animate2{
+    animation: moveInRight 3s ease-in-out;
+}
+
+
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url('../image/lights.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url('../image/media.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a{
+    color: #fff;
+}
+
+#page-header{
+    height: 200px;
+    background: url('../image/image1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    padding-top: 50px;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+}
+
+.about-img{
+    margin-top: -50px;
+}
+
+
+#faq .card{
+    border: #444;
+}
+
+#faq a{
+    color: #fff;
+    text-transform: none;
+}
+
+#faq .card-body, #faq .card-header{
+    background: #333;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+}
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    60%{
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}

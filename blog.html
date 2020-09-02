@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap Theme</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>Read Our Blog</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit recusandae, esse atque a aspernatur repellendus.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- BLOG SECTION -->
+    <section id="blog" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="">
+                        <div class="card">
+                            <img src="./image/blog001.jpg" alt="" class="img-fluid card-img-top">
+                            <div class="card-body">
+                                <div class="card-title">Blog Post One</div>
+                                <small class="text-muted">Written by Jeff on 05/20</small>
+                                <hr>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid consectetur beatae sit, cumque numquam quibusdam, velit architecto aspernatur ipsa minus molestiae modi temporibus non voluptates! Minus quidem minima quo?</p>
+                            </div>
+                        </div>
+
+                        <div class="card p-3">
+                            <blockquote class="card-blockquote card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus libero et non ullam repudiandae adipisci, vitae nulla voluptatum ad repellat.</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">Some Famus in <cite title="Source Title">Source Title</cite></small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/blog002.jpg" alt="" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Blog Post Two</div>
+                            <small class="text-muted">Written by Felonzo on 05/20</small>
+                            <hr>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid consectetur beatae sit, cumque numquam quibusdam, velit architecto aspernatur ipsa minus molestiae modi temporibus non voluptates! Minus quidem minima quo?</p>
+                        </div>
+                    </div>
+
+                    <div class="card p-3 bg-danger text-white">
+                        <blockquote class="card-blockquote card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus libero et non ullam repudiandae adipisci, vitae nulla voluptatum ad repellat.</p>
+                            <footer class="blockquote-footer">
+                                <small class="text-white">Some Famus in <cite title="Source Title">Source Title</cite></small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./image/blog001.jpg" alt="" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Blog Post Three</div>
+                            <small class="text-muted">Written by John Deo on 05/20</small>
+                            <hr>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquid consectetur beatae sit, cumque numquam quibusdam, velit architecto aspernatur ipsa minus molestiae modi temporibus non voluptates! Minus quidem minima quo?</p>
+                        </div>
+                    </div>
+
+                    <div class="card p-3">
+                        <blockquote class="card-blockquote card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus libero et non ullam repudiandae adipisci, vitae nulla voluptatum ad repellat.</p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">Some Famus in <cite title="Source Title">Source Title</cite></small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+        <div class="row">
+            <div class="col">
+            <p>Copyright &copy;
+            <span id="year"></span>
+            </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+  
+    <!-- Jquery first -->
+  <script src="./vendor/jquery/jquery-3.5.1.js"></script> 
+  <script src="./vendor/jquery/popper.min.js"></script>
+  <script src="./vendor/js/bootstrap.min.js"></script>
+  <script>
+    // Get the current year copyright
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+    // $('#year').text(new date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox init
+
+    $(document).on('click', '[data-toggle: lightbox]', function(e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    } )
+
+    // Slider
+
+    $('.slider').slick({
+       infinite: true,
+       slideToShow:1,
+       slideToScroll:1 
+    });
+
+    
+  </script>
+</body>
+</html>
